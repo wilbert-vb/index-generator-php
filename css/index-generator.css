@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+* {
+  font-family: "Lato", Helvetica, sans-serif;
+#  color: #333447;
+  color: #66669;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+form {
+  display: inline-block;
+  margin: 0 10px;
+  width: 300px;
+}
+
+input#filter {
+  border: 1px solid;
+  border-radius: 3px;
+  color: #555;
+  float: left;
+  display: inline;
+  margin: 5px;
+  width: 100%;
+}
+
+input#filter:focus {
+  outline: 0;
+  border-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+div#navbar {
+  background: wheat;
+  height: 30px;
+  left: 0;
+  overflow: hidden;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+div#navbar a {
+  color: #555;
+  font-size: large;
+  line-height: 31px;
+  padding: 0 3px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+div#navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+div#content {
+  margin-top: 70px;
+  height: 1200px;
+  width: 100%;
+}
+
+a {
+  color: #5f5f5f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+a.clear,
+a.clear:link,
+a.clear:visited {
+  color: #666;
+  padding: 2px 0;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 0 20px;
+  line-height: 14px;
+  display: inline-block;
+  border-bottom: transparent 1px solid;
+  vertical-align: -10px;
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -ms-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+table#indexlist {
+  margin: 0 auto;
+  width: 80%;
+}
+
+th,
+td {
+  line-height: 1.2em;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+td {
+  padding: 3px 0;
+}
+
+td.m,
+th.m {
+  text-align: right;
+  width: 120px;
+}
+
+td.n {
+  width: 900px;
+  white-space: no-wrap;
+}
+
+td.s,
+td.t,
+th.s,
+th.t {
+  text-align: right;
+  width: 120px;
+}
+
+tr.dir {
+  font-weight: 300;
+}
+
+tr:hover td {
+  background: #f6f6f6;
+}
+
+div.foot {
+  font: 90% monospace;
+  color: #787878;
+  padding-top: 4px;
+}
