@@ -1,6 +1,7 @@
 # index-generator-php
 
 This PHP script generates index.html tables based on all items in a directory or on a text file with url and subject information.
+All you need is the php-cli package, no need for a PHP server installation.
 
 The text file should have the following line format:
 
