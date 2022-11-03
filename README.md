@@ -9,7 +9,7 @@ The text file should have the following line format:
     
 to generate such file in linux:
 
-    $ grep ^Subject: *|sort - k 2 | sed '/Subject: //g' > titles.txt
+    $ grep -a ^Subject: *|sort -k 2|sed 's/Subject: //g;s/\r//g' >titles.txt
 
 Example:
 
