@@ -13,10 +13,10 @@ to generate such file in linux:
 
 Example:
 
-##### titles.txt:
+#### titles.txt:
 
 ![titles.txt](https://github.com/wilbert-vb/index_generator-py/blob/main/images/titles-txt.png "titles.txt")
 
-##### index.html:
+#### index.html:
 
 ![index.html](https://github.com/wilbert-vb/index_generator-py/blob/main/images/index-html.png "index.html")
