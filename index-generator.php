@@ -21,7 +21,7 @@ $_ignoreItems       = array(
 );
 $_location          = '';
 $_readSubject       = false;
-$_baseURL           = 'https://www.vanbakel.online';
+$_baseURL           = 'https://www.%%your url%%';
 $_styleSheet        = '/css/index-generator.css';
 
 // Run this function after variable initialization
